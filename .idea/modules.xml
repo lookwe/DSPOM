@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dsp_User_Manual.iml" filepath="$PROJECT_DIR$/.idea/dsp_User_Manual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSPOM.iml" filepath="$PROJECT_DIR$/.idea/DSPOM.iml" />
     </modules>
   </component>
 </project>
