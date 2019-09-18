@@ -10,14 +10,14 @@
 
 ![Creative1](./img/Creative/Creative1.png)
 
-## 添加广告系列列表
+## 添加广告系列页列表
 
 * 下面我们可以去添加一个广告系列，点击添加广告创意按钮
 * 然后我们就会跳转到添加广告系列那个的页面
 
 ![CreateCreativeBanners1](./img/Creative/CreateCreativeBanners1.png)
 
-### 格式验证
+#### 格式验证
 ------------------
 ::: warning 提示: 创建广告系列时会有格式验证
 * 每小时预算，每日预算，活动预算，出价（ecpm）必须输入数字
@@ -29,7 +29,7 @@
 * 我们可以选择添加图片广告或者视频广告
 ![CreateType](./img/Creative/CreateType.jpg)
 
-#### 添加图片广告
+### 添加图片广告
 
 ![CreateCreativeBanners2](./img/Creative/CreateCreativeBanners2.png)
 
@@ -41,7 +41,7 @@
 
 ![CreateSuccessCreative](./img/Creative/CreateSuccessCreative.png)
 
-#### 添加视频广告
+### 添加视频广告
 
 ![CreateCreativeVideo1](./img/Creative/CreateCreativeVideo1.png)
 
@@ -64,7 +64,7 @@
 * 归档： 当其所在的广告活动为归档状态时，其下所属广告系列都为归档状态
 :::
 
-## 操作广告系列列表
+## 操作广告系列页列表
 
 ::: tip 广告系列操作
 * 广告系列状态筛选
@@ -137,7 +137,7 @@
 
 ![ScreenHeader](./img/Creative/ScreenHeader.png)
 
-### 广告系列页表格编辑查看操作
+## 编辑查看广告系列页列表
 ::: tip 广告活动页编辑查看操作
 * 编辑广告系列
 * 更改广告系列状态
@@ -147,4 +147,15 @@
 * 点击广告系列的名称可以跳转到广告系列详情的编辑页
 
 ![EditCreative](./img/Creative/EditCreative.jpg)
+
+
+
+* 我们在编辑完成后点击保存广告即可，会跳转回我们的广告活动页，并且页面会进行刷新。
+
+#### 操作2: 更改广告系列状态
+* 点击广告活动的开关可以开启关闭广告活动的状态
+* 提醒： 如果该广告活动里面没有广告系列
+
+![CreativeStatus](./img/Creative/CreativeStatus.jpg)
+
 
