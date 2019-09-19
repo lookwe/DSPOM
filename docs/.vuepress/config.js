@@ -63,6 +63,7 @@ module.exports = {
                         {
                             title: 'Dashboard',
                             children: [
+                                ['/UsersManual/Dashboard/Dashboard', 'Dashboard'],
                             ]
                         },
                         {
@@ -140,7 +141,7 @@ module.exports = {
                         {
                             title: '仪表盘',
                             children: [
-
+                                ['/zh/UsersManual/Dashboard/Dashboard', '仪表盘'],
                             ]
                         },
                         {
