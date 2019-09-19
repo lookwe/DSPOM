@@ -145,17 +145,17 @@ module.exports = {
                         },
                         {
                             title: '广告活动',
-                            // collapsable: false,//让一个组永远都是展开状态。
+                            collapsable: false,//让一个组永远都是展开状态。
                             children: [
                                 ['/zh/UsersManual/bidder/Campaigns', '广告活动'],
                                 ['/zh/UsersManual/bidder/Creative', '广告系列'],
                                 ['/zh/UsersManual/bidder/FilterList', '过滤列表管理器'],
-                                ['/zh/UsersManual/bidder/CreativeLibrary', '文件收藏夹']
+                                ['/zh/UsersManual/bidder/CreativeLibrary', '个人收藏']
                             ]
                         },
                         {
                             title: '财务',
-                            // collapsable: false,//让一个组永远都是展开状态。
+                            collapsable: false,//让一个组永远都是展开状态。
                             children: [
                                 ['/zh/UsersManual/billing/Billing', '账务'],
                                 ['/zh/UsersManual/billing/Invoice', '发票'],
@@ -164,7 +164,7 @@ module.exports = {
                         },
                         {
                             title: '报表',
-                            // collapsable: false,//让一个组永远都是展开状态。
+                            collapsable: false,//让一个组永远都是展开状态。
                             children: [
                                 ['/zh/UsersManual/reports/Reports', '报表'],
                                 ['/zh/UsersManual/reports/Alert', '活动智能监控'],
@@ -174,18 +174,20 @@ module.exports = {
                         {
                             // 菜单名
                             title: '管理员',
-                            // collapsable: false,//让一个组永远都是展开状态。
+                            collapsable: false,//让一个组永远都是展开状态。
                             // 子菜单
                             children: [
                                 // ['','']=>[路径,标题]
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
-                                ['/zh/UsersManual/admin/PendingApproval', '待审核'],
+                                ['/zh/UsersManual/admin/PendingApproval', '供应设置'],
                                 ['/zh/UsersManual/admin/GeneralReport', '总报表'],
                                 ['/zh/UsersManual/admin/ManageUsers', '管理用户'],
                                 ['/zh/UsersManual/admin/ManageTransactions', '管理交易'],
+                                ['/zh/UsersManual/admin/DailyReportManager', '每日经营报告'],
                                 ['/zh/UsersManual/admin/SiteSettings', '设置'],
                                 ['/zh/UsersManual/admin/EditStyle', '主题设置'],
+                                ['/zh/UsersManual/admin/SupplySettings', '供应设置'],
                             ]
                         },
                     ],
