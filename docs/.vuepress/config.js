@@ -149,7 +149,7 @@ module.exports = {
                             children: [
                                 ['/zh/UsersManual/bidder/Campaigns', '广告活动'],
                                 ['/zh/UsersManual/bidder/Creative', '广告系列'],
-                                ['/zh/UsersManual/bidder/FilterList', '过滤列表管理器'],
+                                // ['/zh/UsersManual/bidder/FilterList', '过滤列表管理器'],
                                 ['/zh/UsersManual/bidder/CreativeLibrary', '文件收藏夹']
                             ]
                         },
