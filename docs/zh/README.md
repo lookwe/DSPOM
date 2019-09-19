@@ -4,7 +4,7 @@ heroImage: /img/logo.png
 heroText: 用户操作手册
 tagline: DSP广告平台用户操作手册，能够更好的帮助你了解操作dsp广告平台
 actionText: 获取用户操作手册 →
-actionLink: /zh/UsersManual/
+actionLink: /zh/UsersManual/Dashboard/Dashboard
 features:
 - title: 创建用户
   details: 帮助你更加顺利的完成一个用户的创建
