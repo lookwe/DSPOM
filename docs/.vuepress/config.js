@@ -53,7 +53,7 @@ module.exports = {
                         //多级菜单形式
                         {
                             // 菜单名
-                            title: 'Creating Users',
+                            title: 'Persona lUser',
                             // 子菜单
                             children: [
                                 // ['','']=>[路径,标题]
