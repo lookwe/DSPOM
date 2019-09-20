@@ -18,4 +18,4 @@
 
 ![下载历史发票](./img/tth-2.png "下载历史发票")
 
-下载之后更多详情请查看 [发票下载](zh/UsersManual/billing/Invoice.html#发票下载)
+下载之后更多详情请查看 [发票下载](Invoice.html#发票下载)
