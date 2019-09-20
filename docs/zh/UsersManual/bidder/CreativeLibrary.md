@@ -32,7 +32,7 @@
 * 我们选择我们想要添加的图片后再点击开始上传按钮
 * 等待几秒就添加成功了
 
-![UploadPictures](./img/Library/UploadPictures.png)
+![UploadPictures](./img/Library/UploadPictures.jpg)
 
 
 ### 添加视频资源

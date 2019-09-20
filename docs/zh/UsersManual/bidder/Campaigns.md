@@ -6,14 +6,14 @@
 :::
 
 初始界面：
-![CampaignsList](./img/Campaigns/CampaignsList.png)
+![CampaignsList](./img/Campaigns/CampaignsList.jpg)
 
 ## 添加广告活动列表
 
 * 下面我们可以去添加一个广告活动，点击添加广告活动按钮
 * 然后我们就会跳转到添加广告活动那个的页面
 
-![CreateCampaigns](./img/Campaigns/CreateCampaigns.png)
+![CreateCampaigns](./img/Campaigns/CreateCampaigns.jpg)
 
 * 可以看到有活动名称，开始日期-结束日期，广告域名，地区，交易所，碎片，小时预算，每日预算等添加项
 * 根据我们的需求来添加广告活动
@@ -49,12 +49,15 @@
 #### 功能1: 查看活动报表
 * 此功能是查看广告活动对应的详细报表数据
 * 点击操作项的折线图图标，就会跳转到对应的活动报表详情页面
+![ReportBtn](./img/Campaigns/ReportBtn.jpg)
 
 ![ToReport](./img/Campaigns/ToReport.png)
+
 
 #### 功能2: 复制广告活动
 * 此功能是对广告活动进行复制
 * 点击操作项的复制图标，出现一个弹框
+![CopyBtn](./img/Campaigns/CopyBtn.jpg)
 
 ![CopyCampaigns](./img/Campaigns/CopyCampaigns.png)
 
@@ -73,6 +76,7 @@
 #### 功能3: 归档广告活动
 * 此功能是将广告活动归档（类似于删除功能，但会保留纪录）
 * 点击操作项的文件夹图标，出现一个弹框
+![ArchivedBtn](./img/Campaigns/ArchivedBtn.jpg)
 
 ![ArchivedModel](./img/Campaigns/ArchivedModel.png)
 
@@ -115,7 +119,7 @@
 ![Offline](./img/Campaigns/Offline.png)
 
 * 查询归档
-![Archived](./img/Campaigns/Archived.png)
+![Archived](./img/Campaigns/Archived.jpg)
 
 ::: tip 温馨提示
 * 查询归档的活动后，是不能进行表头显示筛选的
@@ -135,7 +139,7 @@
 
 例如: 隐藏显示活动预算项
 
-![SelectSuccess](./img/Campaigns/SelectSuccess.png)
+![SelectSuccess](./img/Campaigns/SelectSuccess.jpg)
 
 ### 活动页表格编辑查看操作
 ::: tip 广告活动页编辑查看操作
@@ -149,7 +153,7 @@
 
 ![EditCampaigns](./img/Campaigns/EditCampaigns.jpg)
 
-![EditCampaignsTo](./img/Campaigns/EditCampaignsTo.png)
+![EditCampaignsTo](./img/Campaigns/EditCampaignsTo.jpg)
 * 请注意 我们跳转到编辑广告活动页，下方有活动系列的列表。
 * 这是因为我们点击的广告活动里面有广告系列，所以才会在编辑活动的下方呈现出来。
 * 我们在编辑完成后点击保存活动即可，会跳转回我们的广告活动页，并且页面会进行刷新。

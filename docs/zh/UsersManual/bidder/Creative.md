@@ -8,7 +8,7 @@
 
 初始界面：
 
-![Creative1](./img/Creative/Creative1.png)
+![Creative1](./img/Creative/Creative1.jpg)
 
 ## 添加广告系列页列表
 
@@ -31,7 +31,7 @@
 
 ### 添加图片广告
 
-![CreateCreativeBanners2](./img/Creative/CreateCreativeBanners2.png)
+![CreateCreativeBanners2](./img/Creative/CreateCreativeBanners2.jpg)
 
 * 添加图片我们有2种形式，使用图片库里的图片添加
 * 或者在输入一个网上的图片链接进行添加
@@ -48,7 +48,7 @@
 * 添加视频广告的形式和图片一样
 * 填写完对应字段
 
-![CreateCreativeVideo2](./img/Creative/CreateCreativeVideo2.png)
+![CreateCreativeVideo2](./img/Creative/CreateCreativeVideo2.jpg)
 
 * 点击创建广告即可
 

@@ -8,6 +8,7 @@
 * 主页页尾
 :::
 
+* 整体页面
 ![Doshboerd](./img/Doshboerd.png)
 
 ## 主页头部
@@ -18,10 +19,13 @@
 > * 管理员
 
 ### 导航菜单栏
-![headerMenu](./img/headerMenu.jpg)
+* 导航菜单栏，可以通过点击跳转到不同模块的
+![headerMenu](./img/headerMenu.gif)
 
 ### 账户信息栏
-![AccountInfo](./img/AccountInfo.png)
+* 账户信息栏，可以查看账户信息，以及切换账户
+
+![AccountInfo](./img/AccountInfo.gif)
 
 ### 个人信息
 
