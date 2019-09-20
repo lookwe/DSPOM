@@ -44,6 +44,8 @@ module.exports = {
                 label: 'English',
                 nav: [
                     {text: 'Home', link: '/'},
+                    {text: 'PersonalUser', link: '/UsersManual/Dashboard/Dashboard'},
+                    {text: 'Admin', link: '/admin/PendingApproval'},
                 ],
                 sidebar: {
                     // 打开UsersManual主页链接时生成下面这个菜单
@@ -58,41 +60,20 @@ module.exports = {
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
                                 ['/UsersManual/account/Creating Users', 'New users'],
-                            ]
-                        },
-                        {
-                            title: 'Dashboard',
-                            children: [
                                 ['/UsersManual/Dashboard/Dashboard', 'Dashboard'],
-                            ]
-                        },
-                        {
-                            title: 'CAMPAIGNS',
-                            collapsable: false,//让一个组永远都是展开状态。
-                            children: [
                                 ['/UsersManual/bidder/Campaigns', 'Campaigns'],
                                 ['/UsersManual/bidder/Creative', 'Creative'],
-                                ['/UsersManual/bidder/FilterList', 'FilterList'],
+                                // ['/UsersManual/bidder/FilterList', 'FilterList'],
                                 ['/UsersManual/bidder/CreativeLibrary', 'CreativeLibrary']
-                            ]
-                        },
-                        {
-                            title: 'BILLING',
-                            collapsable: false,//让一个组永远都是展开状态。
-                            children: [
+                                ['/UsersManual/reports/Reports', 'Reports'],
+                                ['/UsersManual/reports/Alert', 'Activity Intelligent Monitoring'],
                                 ['/UsersManual/billing/Billing', 'Billing'],
                                 ['/UsersManual/billing/Invoice', 'Invoice'],
                                 ['/UsersManual/billing/TransactionHistory', 'TransactionHistory'],
                             ]
                         },
-                        {
-                            title: 'REPORTS',
-                            collapsable: false,//让一个组永远都是展开状态。
-                            children: [
-                                ['/UsersManual/reports/Reports', 'Reports'],
-                                ['/UsersManual/reports/Alert', 'Activity Intelligent Monitoring'],
-                            ]
-                        },
+                    ],
+                    '/admin/':[
                         // 打开Admin主页链接时生成下面这个菜单
                         {
                             // 菜单名
@@ -103,17 +84,15 @@ module.exports = {
                                 // ['','']=>[路径,标题]
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
-                                ['/UsersManual/admin/PendingApproval', 'PendingApproval'],
-                                ['/UsersManual/admin/GeneralReport', 'General Report'],
-                                ['/UsersManual/admin/ManageUsers', 'Manage Users'],
-                                ['/UsersManual/admin/ManageTransactions', 'Manage Transactions'],
-                                ['/UsersManual/admin/DailyReportManager', 'Daily Report Manager'],
-                                ['/UsersManual/admin/SiteSettings', 'Settings'],
-                                ['/UsersManual/admin/EditStyle', 'Style Settings'],
-                                ['/UsersManual/admin/SupplySettings', 'Supply Settings'],
+                                ['/admin/PendingApproval', 'PendingApproval'],
+                                ['/admin/GeneralReport', 'General Report'],
+                                ['/admin/ManageUsers', 'Manage Users'],
+                                ['/admin/ManageTransactions', 'Manage Transactions'],
+                                ['/admin/SiteSettings', 'Settings'],
+                                ['/admin/EditStyle', 'Style Settings'],
                             ]
                         },
-                    ],
+                    ]
                 }
             },
             '/zh/': {
@@ -123,51 +102,36 @@ module.exports = {
                 label: '简体中文',
                 nav: [
                     {text: '主页', link: '/zh/'},
+                    {text: '个人用户', link: '/zh/UsersManual/Dashboard/Dashboard'},
+                    {text: '管理员', link: '/zh/admin/PendingApproval'},
                 ],
                 sidebar: {
                     '/zh/UsersManual/': [
                         //多级菜单形式
                         {
                             // 菜单名
-                            title: '创建用户',
+                            title: '个人用户',
                             // 子菜单
                             children: [
                                 // ['','']=>[路径,标题]
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
                                 ['/zh/UsersManual/account/Creating Users', '新建用户'],
-                            ]
-                        },
-                        {
-                            title: '仪表盘',
-                            children: [
                                 ['/zh/UsersManual/Dashboard/Dashboard', '仪表盘'],
-                            ]
-                        },
-                        {
-                            title: '广告活动',
-                            children: [
                                 ['/zh/UsersManual/bidder/Campaigns', '广告活动'],
                                 ['/zh/UsersManual/bidder/Creative', '广告系列'],
                                 // ['/zh/UsersManual/bidder/FilterList', '过滤列表管理器'],
-                                ['/zh/UsersManual/bidder/CreativeLibrary', '文件收藏夹']
-                            ]
-                        },
-                        {
-                            title: '财务',
-                            children: [
+                                ['/zh/UsersManual/bidder/CreativeLibrary', '文件收藏夹'],
                                 ['/zh/UsersManual/billing/Billing', '账务'],
                                 ['/zh/UsersManual/billing/Invoice', '发票'],
                                 ['/zh/UsersManual/billing/TransactionHistory', '历史交易纪录'],
-                            ]
-                        },
-                        {
-                            title: '报表',
-                            children: [
                                 ['/zh/UsersManual/reports/Reports', '报表'],
                                 ['/zh/UsersManual/reports/Alert', '活动智能监控'],
                             ]
                         },
+
+                    ],
+                    '/zh/admin/': [
                         // 打开Admin主页链接时生成下面这个菜单
                         {
                             // 菜单名
@@ -177,15 +141,15 @@ module.exports = {
                                 // ['','']=>[路径,标题]
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
-                                ['/zh/UsersManual/admin/PendingApproval', '待审核'],
-                                ['/zh/UsersManual/admin/GeneralReport', '总报表'],
-                                ['/zh/UsersManual/admin/ManageUsers', '管理用户'],
-                                ['/zh/UsersManual/admin/ManageTransactions', '管理交易'],
-                                ['/zh/UsersManual/admin/SiteSettings', '设置'],
-                                ['/zh/UsersManual/admin/EditStyle', '主题设置'],
+                                ['/zh/admin/PendingApproval', '待审核'],
+                                ['/zh/admin/GeneralReport', '总报表'],
+                                ['/zh/admin/ManageUsers', '管理用户'],
+                                ['/zh/admin/ManageTransactions', '管理交易'],
+                                ['/zh/admin/SiteSettings', '设置'],
+                                ['/zh/admin/EditStyle', '主题设置'],
                             ]
                         },
-                    ],
+                        ],
                 }
             }
         }
