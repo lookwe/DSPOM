@@ -8,7 +8,7 @@
 * 此功能是查看广告活动及广告系类对应的详细报表数据
 * 点击左上方可筛选出不同时间段直接的数据展示
 
-![图表](../bidder/img/Campaigns/ToReport.png "DSP图表")
+![图表](./img/alert-0.png "DSP图表")
 
 分别可以点击：**印象**、&nbsp;&nbsp;&nbsp;**请求数**、&nbsp;&nbsp;&nbsp;**转换(开发中)**、&nbsp;&nbsp;&nbsp;**成功数**、&nbsp;&nbsp;&nbsp;**花费**，查看时间条件中的数据信息
 

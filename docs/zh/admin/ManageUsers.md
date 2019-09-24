@@ -28,6 +28,6 @@
 
 ## 查询某个用户下广告活动
 * 管理员可切换到指定用户旗下的所有广告活动；
-* 同编辑用户流程大致一致，点击表格某一行的用户图标切换 <img src="./img/GR/AU5.png" style="margin-bottom: -5px;">；
+* 同编辑用户流程大致一致，点击表格某一行的用户图标切换 <img src="./img/GR/AU5.png" style="margin-bottom: -5px;">
 
 ![跳转广告活动](./img/GR/AU6.gif "跳转广告活动")
