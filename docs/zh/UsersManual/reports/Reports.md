@@ -10,7 +10,7 @@
 
 ![图表](../bidder/img/Campaigns/ToReport.png "DSP图表")
 
-分别可以点击：印象、&nbsp;&nbsp;&nbsp;请求数、&nbsp;&nbsp;&nbsp;转换(开发中)、&nbsp;&nbsp;&nbsp;成功数、&nbsp;&nbsp;&nbsp;花费，查看时间条件中的数据信息
+分别可以点击：**印象**、&nbsp;&nbsp;&nbsp;**请求数**、&nbsp;&nbsp;&nbsp;**转换(开发中)**、&nbsp;&nbsp;&nbsp;**成功数**、&nbsp;&nbsp;&nbsp;**花费**，查看时间条件中的数据信息
 
 ## 添加活动监控
 * 点击图表中小铃铛(添加智能监控)
@@ -29,3 +29,5 @@
 > 2. 筛选广告活动或系类里的某一项（前提必须先选择第一条件后才能选择第二个）
 
 ![模态框](./img/report-4.gif "模态框")
+
+
