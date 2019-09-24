@@ -44,7 +44,7 @@ module.exports = {
                 label: 'English',
                 nav: [
                     {text: 'Home', link: '/'},
-                    {text: 'PersonalUser', link: '/UsersManual/Dashboard/Dashboard'},
+                    {text: 'Personal User', link: '/UsersManual/account/Creating Users'},
                     {text: 'Admin', link: '/admin/PendingApproval'},
                 ],
                 sidebar: {
@@ -53,23 +53,22 @@ module.exports = {
                         //多级菜单形式
                         {
                             // 菜单名
-                            title: 'Persona lUser',
+                            title: 'Personal User',
                             // 子菜单
                             children: [
                                 // ['','']=>[路径,标题]
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
-                                ['/UsersManual/account/Creating Users', 'New users'],
+                                ['/UsersManual/account/Creating Users', 'New user'],
                                 ['/UsersManual/Dashboard/Dashboard', 'Dashboard'],
                                 ['/UsersManual/bidder/Campaigns', 'Campaigns'],
                                 ['/UsersManual/bidder/Creative', 'Creative'],
-                                // ['/UsersManual/bidder/FilterList', 'FilterList'],
-                                ['/UsersManual/bidder/CreativeLibrary', 'CreativeLibrary']
-                                ['/UsersManual/reports/Reports', 'Reports'],
-                                ['/UsersManual/reports/Alert', 'Activity Intelligent Monitoring'],
+                                ['/UsersManual/bidder/CreativeLibrary', 'Document Favorites'],
                                 ['/UsersManual/billing/Billing', 'Billing'],
                                 ['/UsersManual/billing/Invoice', 'Invoice'],
                                 ['/UsersManual/billing/TransactionHistory', 'TransactionHistory'],
+                                ['/UsersManual/reports/Reports', 'Reports'],
+                                ['/UsersManual/reports/Alert', 'Activity Intelligent Monitoring'],
                             ]
                         },
                     ],
@@ -78,7 +77,6 @@ module.exports = {
                         {
                             // 菜单名
                             title: 'ADMIN',
-                            collapsable: false,//让一个组永远都是展开状态。
                             // 子菜单
                             children: [
                                 // ['','']=>[路径,标题]
@@ -149,7 +147,7 @@ module.exports = {
                                 ['/zh/admin/EditStyle', '主题设置'],
                             ]
                         },
-                        ],
+                    ],
                 }
             }
         }

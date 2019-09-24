@@ -4,7 +4,7 @@ heroImage: /img/logo.png
 heroText: User Manual
 tagline: User Manual of DSP Advertising Platform can better help you understand how to operate DSP Advertising Platform.
 actionText: Get Operational Manual →
-actionLink: /zh/UsersManual/Dashboard/Dashboard
+actionLink: /UsersManual/Dashboard/Dashboard
 features:
 - title: Creating Users
   details: Help you to create a basic user more smoothly
