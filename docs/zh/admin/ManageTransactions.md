@@ -11,7 +11,7 @@
 2. <font style="color: #d63200;background: #F8F8F8;padding: 3px 5px;">指定日期</font> - 可筛选出交易在什么时间段之内
 3. <font style="color: #d63200;background: #F8F8F8;padding: 3px 5px;">指定类型</font> - 用于筛选交易那些类型，例如：存款、兑现等...
 
-![查询交易](./img/GR/MT.png "查询交易")
+![查询交易](./img/GR/MT.jpg "查询交易")
 
 ## 充值
 * 充值功能为管理员提供多种付款方式；
