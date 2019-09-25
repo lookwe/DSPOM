@@ -58,7 +58,7 @@
 * 前五广告活动和广告系列表格的放大镜点击可以跳转到对应的详细报表界面
 :::
 
-![DoshboerdInfo2](./img/DoshboerdInfo2.jpg)
+![DoshboerdInfo2](./img/DoshboerdInfo2.png)
 
 ## 主页尾部
 * 主要是展示公司信息和版权信息标注
