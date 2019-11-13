@@ -4,7 +4,7 @@ module.exports = {
         // 增加一个自定义的 favicon(网页标签的图标)
         // 这里的 '/' 指向 docs/.vuepress/public 文件目录
         // 即 docs/.vuepress/public/img/geass-bg.ico
-        ['link', {rel: 'icon', href: `/favicon.ico`}]
+        ['link', {rel: 'icon', href: `/favicon.png`}]
     ],
     //国际化配置
     locales: {
@@ -13,7 +13,7 @@ module.exports = {
         '/': {
             lang: 'en-US', // 这个值会被设置在 <html> 的 lang 属性上
             title: 'DSP User Manual',
-            description: 'User Manual'
+            description: 'Next Ads, MaadTech'
         },
         '/zh/': {
             lang: 'zh-CN',
@@ -44,12 +44,12 @@ module.exports = {
                 label: 'English',
                 nav: [
                     {text: 'Home', link: '/'},
-                    {text: 'Personal User', link: '/UsersManual/account/Creating Users'},
-                    {text: 'Admin', link: '/admin/PendingApproval'},
+                    {text: 'Personal User', link: '/en/UsersManual/account/Creating Users'},
+                    {text: 'Admin', link: '/en/admin/PendingApproval'},
                 ],
                 sidebar: {
                     // 打开UsersManual主页链接时生成下面这个菜单
-                    '/UsersManual/': [
+                    '/en/UsersManual/': [
                         //多级菜单形式
                         {
                             // 菜单名
@@ -59,20 +59,20 @@ module.exports = {
                                 // ['','']=>[路径,标题]
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
-                                ['/UsersManual/account/Creating Users', 'New user'],
-                                ['/UsersManual/Dashboard/Dashboard', 'Dashboard'],
-                                ['/UsersManual/bidder/Campaigns', 'Campaigns'],
-                                ['/UsersManual/bidder/Creative', 'Creative'],
-                                ['/UsersManual/bidder/CreativeLibrary', 'Document Favorites'],
-                                ['/UsersManual/billing/Billing', 'Billing'],
-                                ['/UsersManual/billing/Invoice', 'Invoice'],
-                                ['/UsersManual/billing/TransactionHistory', 'TransactionHistory'],
-                                ['/UsersManual/reports/Reports', 'Reports'],
-                                ['/UsersManual/reports/Alert', 'Activity Intelligent Monitoring'],
+                                ['/en/UsersManual/account/Creating Users', 'New user'],
+                                ['/en/UsersManual/Dashboard/Dashboard', 'Dashboard'],
+                                ['/en/UsersManual/bidder/Campaigns', 'Campaigns'],
+                                ['/en/UsersManual/bidder/Creative', 'Creative'],
+                                ['/en/UsersManual/bidder/CreativeLibrary', 'Document Favorites'],
+                                ['/en/UsersManual/billing/Billing', 'Billing'],
+                                ['/en/UsersManual/billing/Invoice', 'Invoice'],
+                                ['/en/UsersManual/billing/TransactionHistory', 'TransactionHistory'],
+                                ['/en/UsersManual/reports/Reports', 'Reports'],
+                                ['/en/UsersManual/reports/Alert', 'Activity Intelligent Monitoring'],
                             ]
                         },
                     ],
-                    '/admin/':[
+                    '/en/admin/':[
                         // 打开Admin主页链接时生成下面这个菜单
                         {
                             // 菜单名
@@ -82,12 +82,12 @@ module.exports = {
                                 // ['','']=>[路径,标题]
                                 // 或者写成 '路径',标题自动识别为该地址的文件中的h1标题
                                 // 不以 '/' 结尾的就是指向.md文件
-                                ['/admin/PendingApproval', 'PendingApproval'],
-                                ['/admin/GeneralReport', 'General Report'],
-                                ['/admin/ManageUsers', 'Manage Users'],
-                                ['/admin/ManageTransactions', 'Manage Transactions'],
-                                ['/admin/SiteSettings', 'Settings'],
-                                ['/admin/EditStyle', 'Style Settings'],
+                                ['/en/admin/PendingApproval', 'PendingApproval'],
+                                ['/en/admin/GeneralReport', 'General Report'],
+                                ['/en/admin/ManageUsers', 'Manage Users'],
+                                ['/en/admin/ManageTransactions', 'Manage Transactions'],
+                                ['/en/admin/SiteSettings', 'Settings'],
+                                ['/en/admin/EditStyle', 'Style Settings'],
                             ]
                         },
                     ]
